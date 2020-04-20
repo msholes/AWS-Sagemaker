@@ -1,4 +1,4 @@
-# AWS-Sagemaker with Jupyter Notebooks
+## AWS Sagemaker Census Data Machine Learning with Jupyter Notebooks
 
 ### Step 1: Loading the data from Amazon S3
 
@@ -78,7 +78,18 @@ counties.head()
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -278,7 +289,18 @@ counties.head()
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -448,7 +470,18 @@ counties.head()
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -619,20 +652,27 @@ for a in ['Professional', 'Service', 'Office']:
     plt.show()
 ```
 
-    
+    /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages/matplotlib/axes/_axes.py:6521: MatplotlibDeprecationWarning: 
+    The 'normed' kwarg was deprecated in Matplotlib 2.1 and will be removed in 3.1. Use 'density' instead.
+      alternative="'density'", removal="3.1")
 
 
 
 ![png](output_18_1.png)
 
 
-   
+    /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages/matplotlib/axes/_axes.py:6521: MatplotlibDeprecationWarning: 
+    The 'normed' kwarg was deprecated in Matplotlib 2.1 and will be removed in 3.1. Use 'density' instead.
+      alternative="'density'", removal="3.1")
+
 
 
 ![png](output_18_3.png)
 
 
-    
+    /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages/matplotlib/axes/_axes.py:6521: MatplotlibDeprecationWarning: 
+    The 'normed' kwarg was deprecated in Matplotlib 2.1 and will be removed in 3.1. Use 'density' instead.
+      alternative="'density'", removal="3.1")
 
 
 
@@ -953,7 +993,7 @@ pca_SM.fit(pca_SM.record_set(train_data))
     2020-04-20 00:38:06 Starting - Launching requested ML instances...
     2020-04-20 00:39:05 Starting - Preparing the instances for training......
     2020-04-20 00:39:47 Downloading - Downloading input data...
-    2020-04-20 00:40:29 Training - Downloading the training image...
+    2020-04-20 00:40:29 Training - Downloading the training image..
     2020-04-20 00:40:53 Uploading - Uploading generated training model
     2020-04-20 00:40:53 Completed - Training job completed
     Training seconds: 66
@@ -1009,5 +1049,7 @@ s.iloc[28:,:].apply(lambda x: x*x).sum()/s.apply(lambda x: x*x).sum()
 
     0    0.717983
     dtype: float32
+
+
 
 
