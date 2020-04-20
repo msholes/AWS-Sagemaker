@@ -619,27 +619,20 @@ for a in ['Professional', 'Service', 'Office']:
     plt.show()
 ```
 
-    /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages/matplotlib/axes/_axes.py:6521: MatplotlibDeprecationWarning: 
-    The 'normed' kwarg was deprecated in Matplotlib 2.1 and will be removed in 3.1. Use 'density' instead.
-      alternative="'density'", removal="3.1")
+    
 
 
 
 ![png](output_18_1.png)
 
 
-    /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages/matplotlib/axes/_axes.py:6521: MatplotlibDeprecationWarning: 
-    The 'normed' kwarg was deprecated in Matplotlib 2.1 and will be removed in 3.1. Use 'density' instead.
-      alternative="'density'", removal="3.1")
-
+   
 
 
 ![png](output_18_3.png)
 
 
-    /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages/matplotlib/axes/_axes.py:6521: MatplotlibDeprecationWarning: 
-    The 'normed' kwarg was deprecated in Matplotlib 2.1 and will be removed in 3.1. Use 'density' instead.
-      alternative="'density'", removal="3.1")
+    
 
 
 
